@@ -1,0 +1,104 @@
+/* @font-face {
+  font-family: 'Consequences' ;
+  font-style: normal;
+  font-weight: normal;
+  src:url('http://www.fontsaddict.com/fontface/Consequences.ttf');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Pacifico&display=swap');
+
+body{ 
+  margin:"2rem";
+  padding: '4rem';
+  background-color: blanchedalmond;
+  border-radius: '10px';
+  text-align: 'center';
+  font-family: Handlee;
+  
+  
+}
+h1{
+  font-style: italic;
+}
+
+.cardstyle{
+  display: inline-block  ;
+  text-align: center;
+  background-color: darksalmon;
+  border-radius: 30px;
+  box-shadow:#422800 2px 2px 0 0;
+  margin: 3em;
+  border-width: 2em;
+  box-shadow: 5px;
+  flex-wrap: wrap;
+  overflow-x:hidden;
+  padding: 2em;
+  box-shadow: 10em;
+  justify-content: center;
+}
+.cardstyle { 
+  transition: all .2s ease-in-out; 
+  }
+  
+.cardstyle:hover { 
+  transform: scale(0.9); 
+  }
+
+ .search{
+ 
+    padding: 2rem;
+    background-color: blanchedalmond;
+    margin: 3rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 20px;
+    border: 0.5px solid #422800;
+   
+  }
+
+  
+  .search:hover {
+    background-color: beige;
+  }
+
+  .search:active {
+    box-shadow: #422800 0.5px 0.5px 0 0;
+    transform: translate(0.5px, 0.5px);
+  }
+
+
+  .button{
+    background-color: blanchedalmond;
+    border: 0.5px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 1px 1px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 182x;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+  }
+  
+  .button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button{
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  } 
+
