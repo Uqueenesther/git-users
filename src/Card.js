@@ -9,10 +9,9 @@ const Card = ({user, id}) => {
                  style={{width:'14em', }} /></div>
                     <div>
                     <h1> {user.login} </h1>
-                    <p >{user.email} </p>
                     <p> followers: {user.id}</p>
-                    <a href= {user.repos_url} target="_blank">
-                        <button className='button'> Repos</button>
+                    <a href= {user.html_url} target="_blank">
+                        <button className='button'> click to view profile</button>
                     </a>
                     
                 </div>
