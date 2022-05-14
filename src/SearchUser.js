@@ -7,8 +7,7 @@ const SearchUser = ({searchChange, searchfield}) => {
         <div >
           
         <input  placeholder='search user' className='search'
-        type = 'search'  onChange = {searchChange}
-        />
+        type = 'search'  onChange = {searchChange} />
         
       </div>
     )

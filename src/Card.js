@@ -10,7 +10,7 @@ const Card = ({user, id}) => {
                     <div>
                     <h1> {user.login} </h1>
                     <p> followers: {user.id}</p>
-                    <a href= {user.html_url} target="_blank">
+                    <a href= {user.html_url} rel="noopener noreferrer" target="_blank">
                         <button className='button'> click to view profile</button>
                     </a>
                     
